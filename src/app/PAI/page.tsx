@@ -45,8 +45,8 @@ const GeminiAi = () => {
     return (
         <div className="h-screen flex justify-center items-center bg-gray-100">
             <section className="font-lato bg-white shadow-lg rounded-lg p-8 w-[90vw] max-w-2xl border border-brown-300">
-                <h1 className="text-2xl sm:text-3xl font-bold text-center mb-4 text-black">Property Price Analyser</h1>
-                <p className="text-center text-gray-700 mb-6">Enter property details to predict the price instantly!</p>
+                <h1 className="text-2xl sm:text-3xl font-bold text-center mb-4 text-black">Ideal property matcher</h1>
+                <p className="text-center text-gray-700 mb-6">Suggest the optimal property based on various parameters and your needs.</p>
                 <form
                     onSubmit={getResponse}
                     className="flex flex-col gap-4 mb-6"
