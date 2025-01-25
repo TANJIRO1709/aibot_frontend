@@ -64,7 +64,7 @@ const GeminiAi = () => {
                         className="h-10 bg-brown-600 text-black rounded-md hover:bg-brown-700 transition"
                         disabled={loading || disable}
                     >
-                        {loading ? "Analyzing..." : "Property Price"}
+                        {loading ? "Analyzing..." : "Recommended Property"}
                     </Button>
                 </form>
 
